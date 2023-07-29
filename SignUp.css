@@ -1,0 +1,72 @@
+body {
+    background: url("003.jpg");
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.SignUpBox {
+    background: rgba(44, 62, 80, 0.7); 
+    padding: 20px;
+    width: 250px;
+    margin-top: 100%;
+    margin-right: -8000px;
+    margin-left: -8000px;
+    margin: -40px;
+    justify-content: right;
+
+}
+form{
+    width: -500px;
+    text-align: right;
+    margin-top: -20px;
+}
+input{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 18px;
+    font-weight: 200px;
+    padding: 2px 0;
+    transition: border 0.5s;
+    outline: none;
+    height: 20px;
+    color: white;
+
+}
+button{
+    border: none;
+    width: 190px;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 25px;
+    cursor: pointer;
+    align-content: center;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+button:hover {
+    background: black;
+    color: white;
+}
+
+h2 {
+    color: gold;
+}
+a{
+    color: gold
+}
+a:hover{
+    color: cyan;
+}
+.login p{
+    color: white
+    
+}
+
+::placeholder{
+    color: whitesmoke;
+    opacity: 0.6;
+}

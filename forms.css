@@ -1,0 +1,90 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the menu items horizontally */
+    margin-bottom: 0;
+  }
+
+.acbody {
+    background: url(003.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.combody{
+    background: url(007.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+.busbody{
+        background: url(003.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+.busadmin {
+    margin-top: 0;
+    color: red;
+    text-align: center;
+    margin-bottom: 0;
+}
+.busadmin1{
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    margin-top: 0;
+}
+.accounting {
+    margin-top: 0;
+    color: blue;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.accounting1{
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    margin-top: 0;
+}
+.computer{
+    margin-top: o;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+}
+.computer1{
+    color: rgba(red, green, blue, alpha);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+  }
+  
+  .image-link {
+    display: inline-block;
+    position: relative;
+  }
+  .gallery-image {
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+
+  .image-name {
+    color: yellow;
+    margin-top: 0px;
+    text-align: center;
+  }
+  .image-name:hover{
+    color: black;
+  }
